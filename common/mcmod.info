@@ -1,0 +1,21 @@
+[
+{
+  "modid": "EXC",
+  "name": "Extraneous Craft",
+  "description": "Acquire the intense power of Void use it for Humanity!",
+  "version": "@VERSION@",
+  "url": "http://www.minecraftforum.net/topic/1720161-147open-sourceextraneouscraft-alienictechnologiesalter-spacetime/",
+  "updateUrl": "",
+  "authorList": [
+    "Astorian",
+    "Everyone on GitHub"
+  ],
+  "credits": "This is an OpenSource mod by Astorian",
+  "logoFile": "resources/art/ExtraneousLogo.png",
+  "screenshots": [
+  ],
+  "parent":"",
+  "dependencies": [
+  ]
+}
+]
