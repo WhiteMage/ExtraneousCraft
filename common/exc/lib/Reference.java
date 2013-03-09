@@ -13,7 +13,7 @@ public class Reference {
 	public static final String ITEM_TEXTURES = TEXTURE_LOCATION + "items.png";
 	public static final String MISC_TEXTURES = TEXTURE_LOCATION + "misc.png";
 	
-	public static final String PROXY_LOCATION = "common.exc.core.proxy.";
+	public static final String PROXY_LOCATION = "exc.core.proxy.";
 	public static final String COMMON_PROXY = PROXY_LOCATION + "CommonProxy";
 	public static final String CLIENT_PROXY = PROXY_LOCATION + "ClientProxy";
 	

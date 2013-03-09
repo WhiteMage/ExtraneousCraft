@@ -10,11 +10,12 @@ import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.network.NetworkMod;
+import exc.core.handler.PacketHandler;
 import exc.core.proxy.CommonProxy;
 import exc.lib.Reference;
 
 @Mod(modid=Reference.MOD_ID, name=Reference.MOD_NAME, version=Reference.VERSION)
-@NetworkMod(clientSideRequired=true, serverSideRequired=false)
+@NetworkMod(clientSideRequired=true, serverSideRequired=false, channels={"ExcRandom"}, packetHandler = PacketHandler.class)
 public class ExtraneousCraft {
 	
 	 @Instance(Reference.MOD_NAME)
@@ -36,6 +37,9 @@ public class ExtraneousCraft {
 	 
 	 @Init
      public void load(FMLInitializationEvent event) {
+		 
+		 //Registers ore and Items that may alos be on other Mods
+		 proxy.oreDictionary();
              
      }
 	 
