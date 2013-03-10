@@ -1,6 +1,6 @@
-package exc.update;
+package com.minetunes.autoUpdate;
 
-// import exc.core.config.ExtraneousConfig;
+import com.minetunes.config.MinetunesConfig;
 
 /**
  * Code from:
@@ -61,7 +61,7 @@ public class CompareVersion {
 				.matches("^(?:(\\d+)\\.)?(?:(\\d+)\\.)?(?:(\\d+)\\.)?(\\*|\\d+)$");
 	}
 
-	/*	public static boolean isVersionNewerThanCurrent(String version) {
+	public static boolean isVersionNewerThanCurrent(String version) {
 		int result = compareVersions(version, MinetunesConfig.CURRENT_VERSION);
 		if (result == GREATER) {
 			return true;
@@ -77,5 +77,5 @@ public class CompareVersion {
 		} else {
 			return false;
 		}
-	}*/
+	}
 }

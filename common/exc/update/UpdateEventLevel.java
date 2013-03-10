@@ -21,7 +21,7 @@
  * along with MineTunes. If not, see <http://www.gnu.org/licenses/>.
  * 
  */
-package exc.update;
+package com.minetunes.autoUpdate;
 
 /**
  * @author William
