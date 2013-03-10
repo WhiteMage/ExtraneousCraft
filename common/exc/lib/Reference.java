@@ -4,7 +4,21 @@ public class Reference {
 	
 	public static final String MOD_NAME = "ExtraneousCraft";
 	public static final String MOD_ID = "EXC";
-	public static final String VERSION = "0.01a"; //TODO Have a remote version check instead of this
+	
+	/**
+	 * The current version of ExtraneousCraft. Used when considering whether a new update is actually newer.
+	 */
+	public static final String CURRENT_VERSION_NUMS_ONLY = "0.0.01";
+	
+	/**
+	 * DOES NOT WORK WITH fenceFoil's PRIMITIVE VersionCompare :(
+	 */
+	public static final String CURRENT_VERSION = "0.01a";
+	
+	/**
+	 * Current version of Minecraft targeted by this version of ExtraneousCraft. Used by the updater.
+	 */
+	public static final String MINECRAFT_VERSION = "1.4.6";
 	
 	public static final String MOD_PREFIX = "[" + MOD_NAME + "]";
 	
