@@ -16,7 +16,9 @@ import exc.lib.Reference;
 
 @Mod(modid=Reference.MOD_ID, name=Reference.MOD_NAME, version=Reference.VERSION)
 @NetworkMod(clientSideRequired=true, serverSideRequired=false, channels={"ExcRandom"}, packetHandler = PacketHandler.class)
-public class ExtraneousCraft {
+public class ExtraneousCraft {	 
+
+	 private static FileUpdater updater = new FileUpdater ("http://urltogithubversionfile", "mod");
 	
 	 @Instance(Reference.MOD_NAME)
      public static ExtraneousCraft instance;
@@ -26,8 +28,8 @@ public class ExtraneousCraft {
 	 
 	 @PreInit
      public void preInit(FMLPreInitializationEvent event) {
-             
-		 //TODO VersionCheck
+            
+		 checkForUpdates();
 		 //TODO StartupMethods
 		 //TODO Texture and Render Registrations
 		 proxy.registerRenderers();
@@ -35,10 +37,48 @@ public class ExtraneousCraft {
 		 
      }
 	 
+	 /**
+	  * Note: MinetunesConfig is where my mod saves bits of data. It uses a java.util.Properties to contain the data: setString() sets a value, getString() gets a value, and flush() saves. Since your mod does not yet have a config, it is your choice whether to a) add one and use it in here or b) remove all references, and cause a update message to appear every single time a player logs on (annoying).
+	  */
+	 private void checkForUpdates() {
+	  	Thread t = new Thread(new Runnable() {
+			public void run() {
+				// Handle new version found alert
+				String foundVersion = updater
+						.getLatestVersion(Reference.MINECRAFT_VERSION);
+				// If new version found is greater than the current AND is
+				// greater
+				// than the last time we checked
+				if (foundVersion != null
+						&& CompareVersion
+								.isVersionNewerThanCurrent(foundVersion)
+						&& !MinetunesConfig.getString(
+								"updates.lastVersionFound")
+								.equals(foundVersion)) {
+					// Show a message
+					Minecraft.getMinecraft().thePlayer.addChatMessage("§aA new version of ExtraneousCraft (§b"
+							+ foundVersion
+							+ "§a) is available.");
+
+					MinetunesConfig.setString("updates.lastVersionFound",
+							foundVersion);
+					try {
+						MinetunesConfig.flush();
+					} catch (IOException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
+				}
+			}
+		});
+		t.setName("ExtraneousCraft Update Checker");
+		t.start();
+	 }
+	 
 	 @Init
      public void load(FMLInitializationEvent event) {
 		 
-		 //Registers ore and Items that may alos be on other Mods
+		 //Registers ore and Items that may also be in other Mods
 		 proxy.oreDictionary();
              
      }
