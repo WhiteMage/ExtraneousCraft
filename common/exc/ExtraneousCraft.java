@@ -12,6 +12,7 @@ import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.network.NetworkMod;
 import exc.core.handler.PacketHandler;
 import exc.core.proxy.CommonProxy;
+import exc.item.ExtraneousItems;
 import exc.lib.Reference;
 import exc.update.FileUpdater;
 
@@ -19,7 +20,7 @@ import exc.update.FileUpdater;
 @NetworkMod(clientSideRequired=true, serverSideRequired=false, channels={"ExcRandom"}, packetHandler = PacketHandler.class)
 public class ExtraneousCraft {	 
 
-	 public static FileUpdater updater = new FileUpdater ("http://urltogithubversionfile", "mod");
+	 // public static FileUpdater updater = new FileUpdater ("http://urltogithubversionfile", "mod");
 	
 	 @Instance(Reference.MOD_NAME)
      public static ExtraneousCraft instance;
@@ -43,6 +44,9 @@ public class ExtraneousCraft {
 		 
 		 //Registers ore and Items that may also be in other Mods
 		 proxy.oreDictionary();
+		 
+		 // Initialize items
+		 ExtraneousItems.init();
              
      }
 	 
