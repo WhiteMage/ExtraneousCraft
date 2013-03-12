@@ -1,9 +1,0 @@
-# ExtraneousCraft Versions
-
-# NOTE: If you want letters in your versions, you MUST replace references to fenceFoil's VersionCompare with either your own or use Forge's somehow.
-# As an alternative, you can substitute ".00" for a, ".01" for b, and increment 0.01 to 0.02 for releases. Not perfect, but it'll pass the day.
-mod.latest.mc.1.4.6 = 0.01.00 
-
-# Not used unless you want to download new versions
-# Please be considerate of those who don't like mods downloading new versions "secretly:" do not automatically download new versions without permission.
-mod.download.mc.1.4.6 = http://dl.dropbox.com/gibberishgibberish/mod-v01-mc146.zip

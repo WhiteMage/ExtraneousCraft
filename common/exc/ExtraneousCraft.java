@@ -14,13 +14,10 @@ import exc.core.handler.PacketHandler;
 import exc.core.proxy.CommonProxy;
 import exc.item.ExtraneousItems;
 import exc.lib.Reference;
-import exc.update.FileUpdater;
 
 @Mod(modid=Reference.MOD_ID, name=Reference.MOD_NAME, version=Reference.CURRENT_VERSION_NUMS_ONLY)
 @NetworkMod(clientSideRequired=true, serverSideRequired=false, channels={"ExcRandom"}, packetHandler = PacketHandler.class)
 public class ExtraneousCraft {	 
-
-	 // public static FileUpdater updater = new FileUpdater ("http://urltogithubversionfile", "mod");
 	
 	 @Instance(Reference.MOD_NAME)
      public static ExtraneousCraft instance;
@@ -31,7 +28,7 @@ public class ExtraneousCraft {
 	 @PreInit
      public void preInit(FMLPreInitializationEvent event) {
             
-		 //StartupHelper.checkForUpdates();
+		 //TODO Check for updates
 		 //TODO StartupMethods
 		 //TODO Texture and Render Registrations
 		 proxy.registerRenderers();
