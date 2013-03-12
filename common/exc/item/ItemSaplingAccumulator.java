@@ -31,7 +31,7 @@ public class ItemSaplingAccumulator extends ItemTool {
 	 {
 		 if (super.onBlockDestroyed(par1ItemStack, par2World, blockID, x, y, z, par7EntityLiving))
 		    {
-			    if(par2World.isRemote) {
+			    if(!par2World.isRemote) {
 			    	
 			    	if(blockID == Block.leaves.blockID) {
 			    		
