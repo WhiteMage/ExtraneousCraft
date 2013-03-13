@@ -1,4 +1,4 @@
-package exc.core.handler;
+package astorian.exc.core.handler;
 
 import net.minecraft.network.INetworkManager;
 import net.minecraft.network.packet.Packet250CustomPayload;

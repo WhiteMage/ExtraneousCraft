@@ -1,7 +1,7 @@
-package exc.item;
+package astorian.exc.item;
 
 import cpw.mods.fml.common.registry.LanguageRegistry;
-import exc.lib.ItemIDs;
+import astorian.exc.lib.ItemIDs;
 import net.minecraft.block.Block;
 import net.minecraft.item.EnumToolMaterial;
 import net.minecraft.item.Item;

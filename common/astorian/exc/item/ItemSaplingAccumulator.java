@@ -1,9 +1,12 @@
-package exc.item;
+package astorian.exc.item;
 
 import java.util.Random;
 
+import astorian.exc.lib.Reference;
+
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockLeaves;
+import net.minecraft.client.renderer.texture.IconRegister;
 import net.minecraft.entity.EntityLiving;
 import net.minecraft.entity.item.EntityItem;
 import net.minecraft.item.EnumToolMaterial;
@@ -23,8 +26,6 @@ public class ItemSaplingAccumulator extends ItemTool {
 		this.maxStackSize = 1;
 		this.setMaxDamage(24);
 		this.damageVsEntity = 0;
-		this.setIconCoord(0, 0); //TODO Make a texture for the Item
-		this.setItemName("saplingAccumulator");
 	}
 	
 	 public boolean onBlockDestroyed(ItemStack par1ItemStack, World par2World, int blockID, int x, int y, int z, EntityLiving par7EntityLiving) 
@@ -45,6 +46,12 @@ public class ItemSaplingAccumulator extends ItemTool {
 	 
 	 public static boolean findRespondingSapling() {
 		 return true;
+	 }
+	 
+	 @Override
+	 public void func_94581_a(IconRegister iconRegister)
+	 {
+	          iconIndex = iconRegister.func_94245_a(Reference.COMPLETE_MOD_NAME + ":" + "saplingAccumulator");
 	 }
 
 }

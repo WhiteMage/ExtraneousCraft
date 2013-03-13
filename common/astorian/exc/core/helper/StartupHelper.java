@@ -1,6 +1,6 @@
-package exc.core.helper;
+package astorian.exc.core.helper;
 
-import exc.lib.Reference;
+import astorian.exc.lib.Reference;
 
 public class StartupHelper { 
 	

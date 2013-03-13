@@ -1,4 +1,4 @@
-package exc.core.proxy;
+package astorian.exc.core.proxy;
 
 public class CommonProxy {
 	
@@ -6,5 +6,7 @@ public class CommonProxy {
     public void registerRenderers() {}
     
     public void oreDictionary() {}
+    
+    public void initCapes() {}
 
 }

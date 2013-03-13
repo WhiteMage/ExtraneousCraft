@@ -1,4 +1,4 @@
-package exc.lib;
+package astorian.exc.lib;
 
 public class ItemIDs {
 	

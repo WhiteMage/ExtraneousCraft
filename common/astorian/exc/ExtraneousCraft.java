@@ -1,4 +1,4 @@
-package exc;
+package astorian.exc;
 
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.Init;
@@ -10,12 +10,12 @@ import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.network.NetworkMod;
-import exc.core.handler.PacketHandler;
-import exc.core.proxy.CommonProxy;
-import exc.item.ExtraneousItems;
-import exc.lib.Reference;
+import astorian.exc.core.handler.PacketHandler;
+import astorian.exc.core.proxy.CommonProxy;
+import astorian.exc.item.ExtraneousItems;
+import astorian.exc.lib.Reference;
 
-@Mod(modid=Reference.MOD_ID, name=Reference.MOD_NAME, version=Reference.CURRENT_VERSION_NUMS_ONLY)
+@Mod(modid=Reference.MOD_ID, name=Reference.MOD_NAME, version=Reference.CURRENT_VERSION)
 @NetworkMod(clientSideRequired=true, serverSideRequired=false, channels={"ExcRandom"}, packetHandler = PacketHandler.class)
 public class ExtraneousCraft {	 
 	
@@ -31,7 +31,7 @@ public class ExtraneousCraft {
 		 //TODO Check for updates
 		 //TODO StartupMethods
 		 //TODO Texture and Render Registrations
-		 proxy.registerRenderers();
+		 proxy.initCapes();
 		 //TODO Localizations
 		 
      }

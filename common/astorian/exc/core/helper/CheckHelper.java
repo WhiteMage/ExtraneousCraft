@@ -1,4 +1,4 @@
-package exc.core.helper;
+package astorian.exc.core.helper;
 
 import cpw.mods.fml.common.Loader;
 
@@ -30,9 +30,9 @@ public class CheckHelper {
 	
 	public static void checkBC() {
 		
-		if(isBuildcraftLoaded() == false) {
+		if(isBuildcraftLoaded()) {
 			System.out.println("BC Not found Addon Terminating");
-		} else if(isBuildcraftLoaded() == true) {
+		} else if(!isBuildcraftLoaded()) {
 			System.out.println("BC Found Addon Loaded.");
 		}
 		

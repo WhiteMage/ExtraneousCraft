@@ -1,4 +1,4 @@
-package exc.energy;
+package astorian.exc.energy;
 
 public class EnergyLogic {
 	
