@@ -1,6 +1,7 @@
 developer=http://i1160.photobucket.com/albums/q491/xxAKSxx/ECcape_zps1a0bfdc0.png
 developer=xxAKSxx
 developer=fenceFoil
+developer=JadarMC
 tester=http://i1160.photobucket.com/albums/q491/xxAKSxx/ECcape_zps1a0bfdc0.png
 tester=Shadow_Sight
 tester=Lili_Ilayda
