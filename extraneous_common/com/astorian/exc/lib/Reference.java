@@ -19,7 +19,7 @@ public class Reference {
 	public static final String ITEM_TEXTURES = TEXTURE_LOCATION + "items/";
 	public static final String GUIs = TEXTURE_LOCATION + "gui/";
 	
-	public static final String PROXY_LOCATION = "astorian.exc.core.proxy.";
+	public static final String PROXY_LOCATION = "com.astorian.exc.core.proxy.";
 	public static final String COMMON_PROXY = PROXY_LOCATION + "CommonProxy";
 	public static final String CLIENT_PROXY = PROXY_LOCATION + "ClientProxy";
 	
