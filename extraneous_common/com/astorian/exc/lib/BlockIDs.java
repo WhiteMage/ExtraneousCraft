@@ -4,6 +4,6 @@ public class BlockIDs {
 	
 	public static int VoidHeliograph;
 	
-	public static int VoidHelioghraph_Default = 675;
+	public static int VoidHeliograph_Default = 675;
 
 }
