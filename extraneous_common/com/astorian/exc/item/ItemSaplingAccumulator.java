@@ -19,6 +19,8 @@ public class ItemSaplingAccumulator extends ItemTool {
 	
 	public static Block[] blocksEffectiveAgainst = {Block.leaves, Block.sapling, Block.grass};
 	
+	private int saplingMetadata;
+	
 	private static BlockLeaves leaves;
 
 	public ItemSaplingAccumulator(int id, int par2, EnumToolMaterial toolMaterial, Block[] blocksEffectiveAgainst) {
@@ -37,16 +39,28 @@ public class ItemSaplingAccumulator extends ItemTool {
 			    	
 			    	if(blockID == Block.leaves.blockID) {
 			    		
-			    		par2World.spawnEntityInWorld(new EntityItem(par2World, x + 0.5D, y + 0.5D, z + 0.5D, new ItemStack(Block.sapling)));
-			    	}
-			    	 
+			    		/*
+			    		 * Finds and Returns right sapling of Corresponding trees
+			    		 */
+			    		if(Block.leaves.getDamageValue(par2World, x, y, z) == 0) {
+			    			saplingMetadata = 0;
+			    			par2World.spawnEntityInWorld(new EntityItem(par2World, x + 0.5D, y + 0.5D, z + 0.5D, new ItemStack(Block.sapling, 1, saplingMetadata)));
+			    		} else if(Block.leaves.getDamageValue(par2World, x, y, z) == 1) {
+			    			saplingMetadata = 1;
+			    			par2World.spawnEntityInWorld(new EntityItem(par2World, x + 0.5D, y + 0.5D, z + 0.5D, new ItemStack(Block.sapling, 1, saplingMetadata)));
+			    		} else if(Block.leaves.getDamageValue(par2World, x, y, z) == 2) {
+			    			saplingMetadata = 2;
+			    			par2World.spawnEntityInWorld(new EntityItem(par2World, x + 0.5D, y + 0.5D, z + 0.5D, new ItemStack(Block.sapling, 1, saplingMetadata)));
+			    		} else if(Block.leaves.getDamageValue(par2World, x, y, z) == 3) {
+			    			saplingMetadata = 3;
+			    			par2World.spawnEntityInWorld(new EntityItem(par2World, x + 0.5D, y + 0.5D, z + 0.5D, new ItemStack(Block.sapling, 1, saplingMetadata)));
+			    		}
+
+			    	} else
+			    		return false;
 			    }
 		    }
 		 return true;	 
-	 }
-	 
-	 public static boolean findRespondingSapling() {
-		 return true;
 	 }
 	 
 	 @Override
