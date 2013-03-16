@@ -2,21 +2,37 @@ package com.astorian.exc.item;
 
 import cpw.mods.fml.common.registry.LanguageRegistry;
 import com.astorian.exc.lib.ItemIDs;
+import com.astorian.exc.lib.Reference;
+
 import net.minecraft.block.Block;
+import net.minecraft.client.renderer.texture.IconRegister;
 import net.minecraft.item.EnumToolMaterial;
 import net.minecraft.item.Item;
+import cpw.mods.fml.relauncher.Side;
+import cpw.mods.fml.relauncher.SideOnly;
 
-public class ExtraneousItems {
+public class ExtraneousItems extends Item {
 	
-	public static Item saplingAccumulator;
+	public ExtraneousItems(int par1) {
+		super(par1);
+	}
+
+	public static Item herbalAccumulator;
 	
 	public static void init() {
 		
-		saplingAccumulator = new ItemSaplingAccumulator(ItemIDs.SaplingAccumulator_Default, 0, EnumToolMaterial.WOOD, ItemSaplingAccumulator.blocksEffectiveAgainst);
+		herbalAccumulator = new ItemHerbalAccumulator(ItemIDs.SaplingAccumulator, 0, EnumToolMaterial.WOOD, ItemHerbalAccumulator.blocksEffectiveAgainst);
 		
 		//TODO Remove this (Testing till Locale files are up ;D )
-		LanguageRegistry.addName(saplingAccumulator, "Sapling Accumulator");
+		LanguageRegistry.addName(herbalAccumulator, "Herbal Accumulator");
 		
+	}
+	
+	@Override
+	@SideOnly(Side.CLIENT)
+	// public void setIconIndex(IconRegister iconRegister)
+	public void func_94581_a(IconRegister iconRegister) {
+        iconIndex = iconRegister.func_94245_a(Reference.MOD_ID.toLowerCase() + ":" + this.getUnlocalizedName().substring(this.getUnlocalizedName().indexOf(".") + 1));
 	}
 
 }

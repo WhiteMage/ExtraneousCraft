@@ -37,9 +37,6 @@ public class ExtraneousCraft {
 		 //TODO Texture and Render Registrations
 		 //TODO init Localizations
 		 
-		 // Initalize Capes api
-		 proxy.initCapes();
-		 
 		 // Initialize the configuration
 	     ConfigurationHandler.init(new File(event.getModConfigurationDirectory().getAbsolutePath() + "\\extraneouscraft\\" + Reference.MOD_NAME + ".cfg"));
 	        

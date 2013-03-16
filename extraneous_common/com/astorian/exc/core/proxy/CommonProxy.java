@@ -6,7 +6,5 @@ public class CommonProxy {
     public void registerRenderers() {}
     
     public void oreDictionary() {}
-    
-    public void initCapes() {}
 
 }
