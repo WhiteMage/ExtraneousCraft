@@ -1,0 +1,333 @@
+commit 47aa86911ffae33227a26658009257ee079740f3
+Author: Astorian <royalgamingarmy@gmail.com>
+Date:   Sat Mar 16 18:24:31 2013 +0200
+
+    FINALLY this item is fixed thank god it took me hours to figure out how Metadata works...
+    texture's still a hard spot though
+
+commit 664de8926cd177f670e0351c0f58eb39da41b1d4
+Author: Astorian <royalgamingarmy@gmail.com>
+Date:   Sat Mar 16 18:23:17 2013 +0200
+
+    Fixed a typo that remained after refactoring.
+
+commit ffac7cd576718c88d940f68e229dcbcd2429151b
+Author: Astorian <royalgamingarmy@gmail.com>
+Date:   Sat Mar 16 12:37:42 2013 +0200
+
+    Mod Finally possesses a Configuration file for the EndUsers big thanks to pahimar there
+
+commit 71e4a4cde9adedf822bc866c6a7c84d3e3815204
+Author: Astorian <royalgamingarmy@gmail.com>
+Date:   Sat Mar 16 11:56:44 2013 +0200
+
+    Whole Refactoring on packages just to tidy things up a bit
+
+commit 0c09257ef62694e43d6d49216389c7dd3f1e4ce3
+Author: Astorian <royalgamingarmy@gmail.com>
+Date:   Sat Mar 16 11:30:29 2013 +0200
+
+    Ignoring certain local files used for Gource visualization later on
+
+commit 955ccd8533defd1e1b12922cfdbfa00e27b66cc5
+Author: Astorian <royalgamingarmy@gmail.com>
+Date:   Fri Mar 15 15:02:37 2013 +0200
+
+    Ended up rounding back the placeholders it just bugged me so much
+
+commit 5aeb6b9b5ad91012f83b87e30beed78b04e70aa1
+Author: Astorian <royalgamingarmy@gmail.com>
+Date:   Fri Mar 15 12:52:56 2013 +0200
+
+    Started with the void crafting table just some code from a tutorial(Placeholder) someone edit these files to work with the gui please
+
+commit 69c65a6aa3f7512472540db107c309f510c3e7a5
+Author: Astorian <royalgamingarmy@gmail.com>
+Date:   Fri Mar 15 12:50:01 2013 +0200
+
+    Some fixes
+
+commit fded21004d1480f79f12fce44db695cf6bce46b9
+Author: Astorian <royalgamingarmy@gmail.com>
+Date:   Thu Mar 14 11:30:32 2013 +0200
+
+    Update ItemSaplingAccumulator.java
+
+commit f2375981542b68b05a3d279931dee6428cf0124f
+Author: Astorian <royalgamingarmy@gmail.com>
+Date:   Wed Mar 13 20:57:25 2013 +0200
+
+    Made a texture for sapling accumulator May be temporary may be not...
+
+commit 97fda4b8ec987628700581b5a99106eb8755bebe
+Author: Astorian <royalgamingarmy@gmail.com>
+Date:   Wed Mar 13 20:54:21 2013 +0200
+
+    EC now implements DeveloperCapesAPI thanks Jadar :D
+
+commit b019b8efb28f51d2b4f0b0536716335651341512
+Merge: ac9b051 1b80039
+Author: Astorian <royalgamingarmy@gmail.com>
+Date:   Wed Mar 13 20:49:38 2013 +0200
+
+    Merge remote-tracking branch 'refs/remotes/ExtraneousCraft/master'
+
+commit ac9b05145b24f793323d75beba227e188454c76b
+Author: Astorian <royalgamingarmy@gmail.com>
+Date:   Wed Mar 13 20:48:37 2013 +0200
+
+    1.5 aka Redstone Update EC is now %100 ready first release soon ;P
+
+commit 1b80039952de160b0ca9489ade7350694db8dc56
+Author: Astorian <royalgamingarmy@gmail.com>
+Date:   Wed Mar 13 20:41:53 2013 +0200
+
+    Create capes.txt
+
+commit 8d9c7b8f649dedb6cd999011ea55d37dab5bc0ae
+Merge: 0ab413e af33ae2
+Author: Astorian <royalgamingarmy@gmail.com>
+Date:   Wed Mar 13 18:29:30 2013 +0200
+
+    Merge remote-tracking branch 'refs/remotes/ExtraneousCraft/master'
+
+commit 0ab413ebc15545454e3c05c4e1a7db4204b61f35
+Author: Astorian <royalgamingarmy@gmail.com>
+Date:   Wed Mar 13 18:28:58 2013 +0200
+
+    Had to delete Mod Update manager for now and changed the whole structure
+
+commit af33ae208bc9b0a816a6b4b597419c04e1607b7f
+Author: Astorian <royalgamingarmy@gmail.com>
+Date:   Tue Mar 12 19:01:48 2013 +0200
+
+    Created Version file :P
+
+commit ed8586c3b65c65443a3e1588bf1e3b0261c9768c
+Author: Astorian <royalgamingarmy@gmail.com>
+Date:   Tue Mar 12 18:59:36 2013 +0200
+
+    This mod now implements Mod Update Manager!
+
+commit 6af5a4190361cff19df5e0ea8fb48a4bf77bb95d
+Author: Astorian <royalgamingarmy@gmail.com>
+Date:   Tue Mar 12 18:57:47 2013 +0200
+
+    Readme update
+
+commit 4d3211225d66658dd865c77327743d8710a05b04
+Author: Astorian <royalgamingarmy@gmail.com>
+Date:   Tue Mar 12 18:22:11 2013 +0200
+
+    Update on Copyleft :P
+
+commit c67270f004c03bc1947ec3f188b23de801b330dc
+Author: Astorian <royalgamingarmy@gmail.com>
+Date:   Tue Mar 12 18:17:07 2013 +0200
+
+    Had to roll fenceFoil's Manager Upgrading to ModUpdateManager
+    ps. you're the best fenceF. :D
+
+commit 98c9daa88ea52f473f5f08d72b95f531d55df172
+Author: Astorian <royalgamingarmy@gmail.com>
+Date:   Tue Mar 12 15:11:10 2013 +0200
+
+    Bugs fixed item works correctly now :D
+    Pending:  -Texture, Localization
+
+commit e9b726860da5cc80537b47ed50b24ff03b5fc59e
+Author: Astorian <royalgamingarmy@gmail.com>
+Date:   Mon Mar 11 22:56:47 2013 +0200
+
+    The first item of the mod is added Currently buggy and has no texture :P
+
+commit 6b6298257dccc02b410fe6c91865403afe96d69b
+Author: Astorian <royalgamingarmy@gmail.com>
+Date:   Mon Mar 11 22:55:57 2013 +0200
+
+    Mod Works now! commented out the FileUpdater for now
+
+commit 02d6f36c4cb24faeac20898957bcac23ae1eb2cb
+Author: Astorian <royalgamingarmy@gmail.com>
+Date:   Sun Mar 10 21:36:48 2013 +0200
+
+    Finally edited fenceFoil's manager to work with EC config methods are commented out till we have a Configuration file :P
+
+commit 667dc6f298d355e7c0cfb1fe2df444083f10d66f
+Merge: 650064b a46b949
+Author: Astorian <royalgamingarmy@gmail.com>
+Date:   Sun Mar 10 21:30:58 2013 +0200
+
+    Merge remote-tracking branch 'refs/remotes/ExtraneousCraft/master'
+
+commit 650064bbe951c0674c2c036c651167d28cee3467
+Author: Astorian <royalgamingarmy@gmail.com>
+Date:   Sun Mar 10 21:29:55 2013 +0200
+
+    Had to roll back a bit but will put up the updates soon
+
+commit 84b880060e004a6ba350894c6f3e07e7ea182ec0
+Author: Astorian <royalgamingarmy@gmail.com>
+Date:   Sun Mar 10 21:24:20 2013 +0200
+
+    Updated Whole Mod edited fenceFoil's UpdateChecker and Commented out the Config file thingies for Now ... Cheers :D
+
+commit a46b9498adf5eef04883a55ddbc63ea09894bb19
+Author: Astorian <royalgamingarmy@gmail.com>
+Date:   Sun Mar 10 21:11:18 2013 +0200
+
+    IC2 Api Update only needed the recipes so far energy will be added whenever vE is ready
+
+commit af37e07df0aae14ed53ff050ff1449e070f83ea6
+Merge: b85fb8d 129b1ce
+Author: Astorian <royalgamingarmy@gmail.com>
+Date:   Sun Mar 10 10:06:14 2013 -0700
+
+    Merge pull request #1 from fenceFoil/master
+    
+    Update checker roughly added thanks to fenceFoil
+
+commit 129b1ce272985f03138f808d2d36c6097210dca1
+Author: fenceFoil <noemailyet@notyet.com>
+Date:   Sun Mar 10 12:46:51 2013 -0400
+
+    Added an example of the update checker's index file to host on GitHub
+
+commit c1d7f1977599514e73560c5ceed2e50ec2892a39
+Author: fenceFoil <noemailyet@notyet.com>
+Date:   Sun Mar 10 12:46:19 2013 -0400
+
+    Added an update checker
+
+commit 73565f73de8621265298cdb144c2a055e9202c2c
+Author: fenceFoil <noemailyet@notyet.com>
+Date:   Sun Mar 10 12:46:06 2013 -0400
+
+    Added reference keys; note that the old CURRENT_VERSION does not with with the UpdateChecker for now
+
+commit b85fb8dbd9ef9ae30b3ed1b506dd92d6a4a51120
+Author: Astorian <royalgamingarmy@gmail.com>
+Date:   Sat Mar 9 19:22:52 2013 +0200
+
+    Update COPYING
+
+commit d678c5a0bf174651c38418cc6d010ab8d9ce66c5
+Author: Astorian <royalgamingarmy@gmail.com>
+Date:   Sat Mar 9 19:21:14 2013 +0200
+
+    GNU License Commit
+
+commit e884d7545660870496763da14a5de24160cec72f
+Author: Astorian <royalgamingarmy@gmail.com>
+Date:   Sat Mar 9 19:16:27 2013 +0200
+
+    Implemented/Integrated IndustrialCraft 2 API
+
+commit 2f18437bf26342c4b1aebb0d3de640067f673040
+Author: Astorian <royalgamingarmy@gmail.com>
+Date:   Sat Mar 9 18:23:18 2013 +0200
+
+    Created Readme again ooops Derp :P
+
+commit 2b39cdaf726eaf30adc2cd639d7afa3de4955cb4
+Author: Astorian <royalgamingarmy@gmail.com>
+Date:   Sat Mar 9 18:18:48 2013 +0200
+
+    Readme Updates (Local)
+
+commit 7e854208ed0c05f1ee7e87f8558b0df6c2c66e5d
+Merge: 9405887 8d83bdd
+Author: Astorian <royalgamingarmy@gmail.com>
+Date:   Sat Mar 9 18:16:07 2013 +0200
+
+    Merge remote-tracking branch 'refs/remotes/ExtraneousCraft/master'
+    
+    Conflicts:
+    	common/exc/ExtraneousCraft.java
+    	common/exc/core/proxy/CommonProxy.java
+    	common/exc/lib/Reference.java
+
+commit 940588755149402a413a94df4b08c3cdcc292e34
+Author: Astorian <royalgamingarmy@gmail.com>
+Date:   Sat Mar 9 18:06:21 2013 +0200
+
+    Added mcmod.info
+
+commit 8c52301070be403af54bc5f8238f2c74574e7b37
+Author: Astorian <royalgamingarmy@gmail.com>
+Date:   Sat Mar 9 18:05:28 2013 +0200
+
+    Added Packet Handler for ServerSide mod
+
+commit 0d1ae4d97143326f21d3f2712e5b42feb726888d
+Author: Astorian <royalgamingarmy@gmail.com>
+Date:   Sat Mar 9 18:04:38 2013 +0200
+
+    Update: Ore Dictionary support fixed a bug about path of proxies
+
+commit 5a0bcec3cc10ab9ba9b963cc8eca0d052ee33ba8
+Author: Astorian <royalgamingarmy@gmail.com>
+Date:   Sat Mar 9 17:30:02 2013 +0200
+
+    Final Commit Push on Initialization
+    Update on Reference file (Local)
+
+commit 8d83bdda3067f495a269adf641be20eb406ae5f9
+Author: Astorian <royalgamingarmy@gmail.com>
+Date:   Sat Mar 9 17:21:47 2013 +0200
+
+    A reference file to keep things tidied up...
+
+commit 5f809731602626a747bfc74bba70d3c3cd6bef48
+Author: Astorian <royalgamingarmy@gmail.com>
+Date:   Sat Mar 9 17:20:52 2013 +0200
+
+    Mod works now in theory it's got a base mod Class and Proxies :P
+
+commit 12524642a77a3570f5776b14cf8d621d670d6050
+Author: Astorian <royalgamingarmy@gmail.com>
+Date:   Sat Mar 9 17:20:03 2013 +0200
+
+    Made a texture for EterneousIngot
+
+commit 0d70baacbe3e1d001b43b02243a67c4fa7949878
+Author: Astorian <royalgamingarmy@gmail.com>
+Date:   Sat Mar 9 13:32:30 2013 +0200
+
+    Initial Commit of Resources with the Logo of the Mod
+
+commit 36922830b212084ca71adfa59d00e24fe2371792
+Author: Astorian <royalgamingarmy@gmail.com>
+Date:   Sat Mar 9 13:02:08 2013 +0200
+
+    Delete Useless old stuff
+
+commit 1a3dabfd8b50a888dc2085d71fd3a3a55db06050
+Author: Astorian <royalgamingarmy@gmail.com>
+Date:   Sat Mar 9 13:00:13 2013 +0200
+
+    Update on Mod Structure
+
+commit 2b0b30655c56394d04c4ac82e150b912cf5b8736
+Author: Astorian <royalgamingarmy@gmail.com>
+Date:   Sat Mar 9 12:57:41 2013 +0200
+
+    Updated README with Release notes of Alpha
+
+commit 1f6159235f98a7bbc5a922b548093ba68b778883
+Author: Astorian <royalgamingarmy@gmail.com>
+Date:   Sat Mar 9 12:46:51 2013 +0200
+
+    Create README.md
+
+commit 94ef2b688d5406761c77357edc17da6bc51ea37a
+Author: Astorian <royalgamingarmy@gmail.com>
+Date:   Sat Mar 9 12:38:49 2013 +0200
+
+    Initial Commit on Addons and Startup
+
+commit 29b91e03a2bf1f7bed544572ae253bad6d09caec
+Author: Astorian <royalgamingarmy@gmail.com>
+Date:   Sat Mar 9 12:38:25 2013 +0200
+
+    Initial Commit on Void Energy
