@@ -1,4 +1,72 @@
-* commit 274421b365665a820f9478dde8f3812f1f0471f5 (HEAD, ExtraneousCraft/master, master)
+* commit 79cba0a2b06fef0fdad057a5f7fc49c806acc500 (HEAD, ExtraneousCraft/master, master)
+| Author: Astorian <royalgamingarmy@gmail.com>
+| Date:   Sun Mar 17 15:39:18 2013 +0200
+| 
+|     English lang file (dummy)
+|  
+* commit ff09d2fbc843690fd3bf243d1662f5cda4cff514
+| Author: Astorian <royalgamingarmy@gmail.com>
+| Date:   Sun Mar 17 15:38:49 2013 +0200
+| 
+|     Localization update
+|  
+* commit 0b9148b28bd5afe1e5a6e04214091a37b65f16cd
+| Author: Astorian <royalgamingarmy@gmail.com>
+| Date:   Sun Mar 17 15:38:24 2013 +0200
+| 
+|     Achievement get!
+|     Achievements!
+|  
+* commit 7ee9ebf5b3c89ff46b1c132a80491e52c17a4f05
+| Author: Astorian <royalgamingarmy@gmail.com>
+| Date:   Sun Mar 17 15:37:46 2013 +0200
+| 
+|     Rename
+|  
+* commit 87e5c4ae047091eca28a11b74242f2528f989c17
+| Author: Astorian <royalgamingarmy@gmail.com>
+| Date:   Sun Mar 17 15:37:20 2013 +0200
+| 
+|     Renaming and Localizations
+|  
+* commit 4e679d0dc311e29c6fff1cac5917ebea716b3629
+| Author: Astorian <royalgamingarmy@gmail.com>
+| Date:   Sun Mar 17 15:36:43 2013 +0200
+| 
+|     had to change some names
+|  
+* commit 5d6cc48d578034ee4a7dda3304a1a896c7165d89
+| Author: Astorian <royalgamingarmy@gmail.com>
+| Date:   Sun Mar 17 11:08:06 2013 +0200
+| 
+|     Temporary recipe for herbalAccumulator
+|  
+* commit 4d07d5f513ed04239525eb25dc3e7ad7f70ee28c
+| Author: Astorian <royalgamingarmy@gmail.com>
+| Date:   Sat Mar 16 21:25:31 2013 +0200
+| 
+|     Name changed also texture Bug is FIXED i'm so proud of myself today...
+|     Also name is slightly different ;D
+|  
+* commit d6a2931fc945519478dc26bc91b8d1c5e534d85d
+| Author: Astorian <royalgamingarmy@gmail.com>
+| Date:   Sat Mar 16 21:24:27 2013 +0200
+| 
+|     Some Updates
+|  
+* commit 7b1e830f606a6149a3a6df56b94bf5e5878cbbba
+| Author: Astorian <royalgamingarmy@gmail.com>
+| Date:   Sat Mar 16 21:23:53 2013 +0200
+| 
+|     Capes api sadly removed it simply put too much restrain on the mod...
+|  
+* commit 7696b325391b64dbaafc4b6e0e6792fce680d310
+| Author: Astorian <royalgamingarmy@gmail.com>
+| Date:   Sat Mar 16 18:50:35 2013 +0200
+| 
+|     Better changelog is better :P
+|  
+* commit 274421b365665a820f9478dde8f3812f1f0471f5
 | Author: Astorian <royalgamingarmy@gmail.com>
 | Date:   Sat Mar 16 18:48:04 2013 +0200
 | 
