@@ -15,6 +15,7 @@ import cpw.mods.fml.common.network.NetworkMod;
 
 import com.astorian.exc.core.config.ConfigurationHandler;
 import com.astorian.exc.core.handler.PacketHandler;
+import com.astorian.exc.core.helper.RecipeHelper;
 import com.astorian.exc.core.proxy.CommonProxy;
 import com.astorian.exc.item.ExtraneousItems;
 import com.astorian.exc.lib.Reference;
@@ -42,6 +43,9 @@ public class ExtraneousCraft {
 	        
 	     // Initialize items
 		 ExtraneousItems.init();
+		 
+		 // Initialize Recipes
+		 RecipeHelper.initRecipes();
 		 
      }
 	 
