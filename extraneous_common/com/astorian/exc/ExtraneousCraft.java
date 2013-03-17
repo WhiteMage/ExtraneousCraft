@@ -14,6 +14,7 @@ import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.network.NetworkMod;
 
 import com.astorian.exc.core.config.ConfigurationHandler;
+import com.astorian.exc.core.handler.LocalizationHandler;
 import com.astorian.exc.core.handler.PacketHandler;
 import com.astorian.exc.core.helper.RecipeHelper;
 import com.astorian.exc.core.proxy.CommonProxy;
@@ -21,7 +22,7 @@ import com.astorian.exc.item.ExtraneousItems;
 import com.astorian.exc.lib.Reference;
 
 @Mod(modid=Reference.MOD_ID, name=Reference.MOD_NAME, version=Reference.CURRENT_VERSION)
-@NetworkMod(clientSideRequired=true, serverSideRequired=false, channels={"ExcRandom"}, packetHandler = PacketHandler.class)
+@NetworkMod(clientSideRequired=true, serverSideRequired=true, channels={"ExcRandom"}, packetHandler = PacketHandler.class)
 public class ExtraneousCraft {	 
 	
 	 @Instance(Reference.MOD_NAME)
@@ -36,7 +37,9 @@ public class ExtraneousCraft {
 		 //TODO Check for updates
 		 //TODO StartupMethods
 		 //TODO Texture and Render Registrations
-		 //TODO init Localizations
+		 
+		 // Load the localization files into the LanguageRegistry
+	     LocalizationHandler.loadLanguages();
 		 
 		 // Initialize the configuration
 	     ConfigurationHandler.init(new File(event.getModConfigurationDirectory().getAbsolutePath() + "\\extraneouscraft\\" + Reference.MOD_NAME + ".cfg"));

@@ -23,9 +23,6 @@ public class ExtraneousItems extends Item {
 		
 		herbalAccumulator = new ItemHerbalAccumulator(ItemIDs.SaplingAccumulator, 0, EnumToolMaterial.WOOD, ItemHerbalAccumulator.blocksEffectiveAgainst);
 		
-		//TODO Remove this (Testing till Locale files are up ;D )
-		LanguageRegistry.addName(herbalAccumulator, "Herbal Accumulator");
-		
 	}
 	
 	@Override

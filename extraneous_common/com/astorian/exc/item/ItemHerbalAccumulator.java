@@ -28,7 +28,7 @@ public class ItemHerbalAccumulator extends ItemTool {
 		this.maxStackSize = 1;
 		this.setMaxDamage(24);
 		this.damageVsEntity = 0;
-		this.setUnlocalizedName("saplingAccumulator");
+		this.setUnlocalizedName("herbalAccumulator");
 	}
 	
 	 public boolean onBlockDestroyed(ItemStack par1ItemStack, World par2World, int blockID, int x, int y, int z, EntityLiving par7EntityLiving) 
