@@ -13,6 +13,7 @@ import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.network.NetworkMod;
 
+import com.astorian.exc.achievement.ExtraneousAchievements;
 import com.astorian.exc.core.config.ConfigurationHandler;
 import com.astorian.exc.core.handler.LocalizationHandler;
 import com.astorian.exc.core.handler.PacketHandler;
@@ -57,6 +58,9 @@ public class ExtraneousCraft {
 		 
 		 //Registers ore and Items that may also be in other Mods
 		 proxy.oreDictionary();
+		 
+		 // Initialize Mod Achievements
+		 ExtraneousAchievements.init();
              
      }
 	 
