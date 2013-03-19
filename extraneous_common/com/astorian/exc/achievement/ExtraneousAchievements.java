@@ -11,6 +11,10 @@ public class ExtraneousAchievements {
 	
 	public static void init() {
 		
+		initializeAchievements();
+		registerAchievements();
+		registerConditions();
+		
 	}
 	
 	public static void initializeAchievements() {
@@ -25,7 +29,9 @@ public class ExtraneousAchievements {
 		
 	}
 	
-	public static void conditions() {
+	public static void registerConditions() {
+		
+		
 		
 	}
 
