@@ -1,4 +1,40 @@
-* commit 79cba0a2b06fef0fdad057a5f7fc49c806acc500 (HEAD, ExtraneousCraft/master, master)
+* commit 579739fe272267c3049040d69287fb13d70f915d (HEAD, ExtraneousCraft/master, master)
+| Author: Astorian <royalgamingarmy@gmail.com>
+| Date:   Wed Mar 20 19:04:07 2013 +0200
+| 
+|     finally the damn heligraph model has some textures ;)
+|  
+* commit 27b0fa16c90bcce0e4561e7991ce956783ccf18b
+| Author: Astorian <royalgamingarmy@gmail.com>
+| Date:   Wed Mar 20 19:03:22 2013 +0200
+| 
+|     Some random update :3
+|  
+* commit a77fea4b26405b8427bc1a1e6064624fe911bbcf
+| Author: Astorian <royalgamingarmy@gmail.com>
+| Date:   Tue Mar 19 21:23:23 2013 +0200
+| 
+|     Started out that Cool models / any texture makers in hte house ? :D
+|  
+* commit 2adf0fb75f9b9973a93941634b7608a80688ae58
+| Author: Astorian <royalgamingarmy@gmail.com>
+| Date:   Tue Mar 19 20:43:48 2013 +0200
+| 
+|     Updated for achievements
+|  
+* commit b5a4bebc2dc491f727ca2cffadc5a789414137fb
+| Author: Astorian <royalgamingarmy@gmail.com>
+| Date:   Tue Mar 19 13:45:42 2013 +0200
+| 
+|     Update ExtraneousAchievements.java
+|  
+* commit fbced68f2814ea5c5e2497cb7895e497ef18dafa
+| Author: Astorian <royalgamingarmy@gmail.com>
+| Date:   Sun Mar 17 15:42:48 2013 +0200
+| 
+|     Changelog update
+|  
+* commit 79cba0a2b06fef0fdad057a5f7fc49c806acc500
 | Author: Astorian <royalgamingarmy@gmail.com>
 | Date:   Sun Mar 17 15:39:18 2013 +0200
 | 
