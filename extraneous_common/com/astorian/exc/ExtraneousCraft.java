@@ -22,6 +22,12 @@ import com.astorian.exc.core.proxy.CommonProxy;
 import com.astorian.exc.item.ExtraneousItems;
 import com.astorian.exc.lib.Reference;
 
+/**
+ * ExtraneousCraft GNU GLPL3 Licensed Open-Source Mod For Minecraft
+ * 
+ * @author Astorian
+ */
+
 @Mod(modid=Reference.MOD_ID, name=Reference.MOD_NAME, version=Reference.CURRENT_VERSION)
 @NetworkMod(clientSideRequired=true, serverSideRequired=true, channels={"ExcRandom"}, packetHandler = PacketHandler.class)
 public class ExtraneousCraft {	 

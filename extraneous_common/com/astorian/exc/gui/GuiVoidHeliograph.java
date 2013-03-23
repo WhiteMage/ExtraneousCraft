@@ -29,7 +29,7 @@ public class GuiVoidHeliograph extends GuiContainer {
 	protected void drawGuiContainerBackgroundLayer(float f, int i, int j) {
 		
 		 GL11.glColor4f(1.0F, 1.0F, 1.0F, 1.0F);
-         this.mc.renderEngine.func_98187_b("/gui/VoidHelioghraph.png");
+         mc.renderEngine.bindTexture("/gui/VoidHelioghraph.png");
          int var5 = (this.width - this.xSize) / 2;
          int var6 = (this.height - this.ySize) / 2;
          this.drawTexturedModalRect(var5, var6, 0, 0, this.xSize, this.ySize);

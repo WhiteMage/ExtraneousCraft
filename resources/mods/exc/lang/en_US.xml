@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"??>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties version="1.0">
+	<!-- English (US) Localization File -->
+	<!-- Author: Astorian -->
+	    <entry key="item.herbalAccumulator.name">Herbal Accumulator</entry>
+	    <entry key="item.ingotEterneous.name">Eterneous Ingot</entry>
+	<!-- Tiles (Blocks) -->
+	    <entry key="tile.voidHeliograph.name">Void Heliograph</entry>
+</properties>

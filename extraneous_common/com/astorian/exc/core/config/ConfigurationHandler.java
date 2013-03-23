@@ -38,7 +38,8 @@ public class ConfigurationHandler {
             BlockIDs.VoidHeliograph = config.getBlock("voidHeliograph", BlockIDs.VoidHeliograph_Default).getInt(BlockIDs.VoidHeliograph_Default);
             
             /* Item constants */
-            ItemIDs.SaplingAccumulator = config.getItem("saplingAccumulator", ItemIDs.SaplingAccumulator_Default).getInt(ItemIDs.SaplingAccumulator_Default);
+            ItemIDs.SaplingAccumulator = config.getItem("herbalAccumulator", ItemIDs.SaplingAccumulator_Default).getInt(ItemIDs.SaplingAccumulator_Default);
+            ItemIDs.EterneousIngot = config.getItem("ingotEterneous", ItemIDs.EterneousIngot_Default).getInt(ItemIDs.EterneousIngot_Default);
 		
 		
 		} catch(Exception e) {

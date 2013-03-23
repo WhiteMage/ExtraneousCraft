@@ -1,4 +1,4 @@
-package com.ic2.api;
+package com.astorian.exc.api.ic2;
 
 import java.lang.reflect.Array;
 import java.util.AbstractMap;
@@ -16,6 +16,7 @@ import net.minecraft.item.ItemStack;
  * The recipes are only valid after IC2 has been loaded and are metadata and stack size sensitive,
  * for example you can create a recipe to compress 3 wooden planks into 2 sticks.
  */
+@SuppressWarnings("unchecked")
 public final class Ic2Recipes {
 	/**
 	 * Add a charge-aware shaped crafting recipe.
