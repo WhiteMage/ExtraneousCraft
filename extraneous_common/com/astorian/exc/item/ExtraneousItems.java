@@ -19,6 +19,7 @@ public class ExtraneousItems extends Item {
 	}
 	
 	public static Item ingotEterneous;
+	public static Item chunkEterneous;
     public static Item eterneousFallBoots;
 	public static Item herbalAccumulator;
 	
