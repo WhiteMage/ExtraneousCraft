@@ -12,7 +12,10 @@ Energy used troughout the mod created by Extraneous beings that live in a galaxy
 Void Heliograph:   
 ----------------
 You've been blessed with the tiniest amount of alienic research for creating this machine it'll be an essential to Craft different machines throughout your adventures of altering Space&Time. This is a machine that can use Void Energy to energize itself to combine different materials into one.
-Void Concentrator: Your own mind and research of the complicated ways of Alien Beings and Void Energy has finally gave it's fruits. You now can gather a bit of void energy that is hidden and spread troughout YOUR world. Can be Placed on Bedrock to gather and concentrate Void Particles into vE.
+
+Void Concentrator:
+------------------
+Your own mind and research of the complicated ways of Alien Beings and Void Energy has finally gave it's fruits. You now can gather a bit of void energy that is hidden and spread troughout YOUR world. Can be Placed on Bedrock to gather and concentrate Void Particles into vE.
 
 Void Charging Station: 
 ----------------------
