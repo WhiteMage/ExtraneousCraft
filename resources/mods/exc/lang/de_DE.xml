@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties version="1.0">
+  <!-- German (DE) Localization File -->
+	<!-- Author: heddendl -->
+	    <entry key="item.herbalAccumulator.name">Kräutersammler</entry>
+	    <entry key="item.ingotEterneous.name">Ewiger Stein</entry>
+	<!-- Tiles (Blocks) -->
+	    <entry key="tile.voidHeliograph.name">Kys Manipulator</entry>
+</properties>
