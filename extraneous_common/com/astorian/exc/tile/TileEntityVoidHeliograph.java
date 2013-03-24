@@ -4,6 +4,8 @@ import net.minecraft.tileentity.TileEntity;
 
 public class TileEntityVoidHeliograph extends TileEntity {
 	
+	public TileEntityVoidHeliograph() {}
+	
 	public boolean isNightTime() {
 		if(!worldObj.isRemote) {
 			if(worldObj.isDaytime() && !worldObj.canBlockSeeTheSky(xCoord, yCoord+1, zCoord)){

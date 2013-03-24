@@ -5,8 +5,8 @@ public class Reference {
 	public static final String MOD_NAME = "ExtraneousCraft";
 	public static final String MOD_ID = "EXC";
 
-	public static final String CURRENT_VERSION_NUMS_ONLY = "0.0.01";
-	public static final String CURRENT_VERSION = "0.01a";
+	public static final String CURRENT_VERSION_NUMS_ONLY = "0.0.02";
+	public static final String CURRENT_VERSION = "0.02a";
 
 	public static final String MINECRAFT_VERSION = "1.5";
 	

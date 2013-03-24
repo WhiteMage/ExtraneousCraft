@@ -7,4 +7,6 @@ public class CommonProxy {
     
     public void oreDictionary() {}
 
+	public void initTileEntities() {}
+
 }

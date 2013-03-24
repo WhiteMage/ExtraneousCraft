@@ -5,7 +5,8 @@ public class LocalizationLib {
 	private static final String LANG_LOCATION = "/mods/exc/lang/";
 	
 	public static String[] localeFiles = { 
-		LANG_LOCATION + "en_US.xml"
+		LANG_LOCATION + "en_US.xml",
+		LANG_LOCATION + "tr_TR.xml"
 	};
 
 			

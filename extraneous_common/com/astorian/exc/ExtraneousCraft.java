@@ -14,6 +14,7 @@ import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.network.NetworkMod;
 
 import com.astorian.exc.achievement.ExtraneousAchievements;
+import com.astorian.exc.block.ExtraneousBlocks;
 import com.astorian.exc.core.config.ConfigurationHandler;
 import com.astorian.exc.core.handler.LocalizationHandler;
 import com.astorian.exc.core.handler.PacketHandler;
@@ -26,6 +27,7 @@ import com.astorian.exc.lib.Reference;
  * ExtraneousCraft GNU GLPL3 Licensed Open-Source Mod For Minecraft
  * 
  * @author Astorian
+ * @version 0.02
  */
 
 @Mod(modid=Reference.MOD_ID, name=Reference.MOD_NAME, version=Reference.CURRENT_VERSION)
@@ -43,7 +45,6 @@ public class ExtraneousCraft {
             
 		 //TODO Check for updates
 		 //TODO StartupMethods
-		 //TODO Texture and Render Registrations
 		 
 		 // Load the localization files into the LanguageRegistry
 	     LocalizationHandler.loadLanguages();
@@ -53,6 +54,9 @@ public class ExtraneousCraft {
 	        
 	     // Initialize items
 		 ExtraneousItems.init();
+		 
+		 // Initialize blocks
+		 ExtraneousBlocks.init();
 		 
 		 // Initialize Recipes
 		 RecipeHelper.initRecipes();
@@ -64,6 +68,12 @@ public class ExtraneousCraft {
 		 
 		 //Registers ore and Items that may also be in other Mods
 		 proxy.oreDictionary();
+		 
+		 // Initialize Tile entities
+		 proxy.initTileEntities();
+		 
+		 // Register block and Item Renderers
+		 proxy.registerRenderers();
 		 
 		 // Initialize Mod Achievements
 		 ExtraneousAchievements.init();

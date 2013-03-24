@@ -80,5 +80,14 @@ public class ModelVoidHeliograph extends ModelBase
   {
     super.setRotationAngles(f, f1, f2, f3, f4, f5, entity);
   }
+  
+  public void renderAll() {
+	  Base.render(0.625f);
+	  Column.render(0.625f);
+	  RExtension.render(0.625f);
+	  LExtension.render(0.625f);
+	  BaseTop.render(0.625f);
+	  ExtensionBase.render(0.625f);
+  }
 
 }

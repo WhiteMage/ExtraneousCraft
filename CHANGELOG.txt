@@ -1,4 +1,52 @@
-commit 94c3de38e42f0b19cd437bf79b0b7a74fc9c4d66 (HEAD, ExtraneousCraft/master, master)
+commit c0d9cd57e0a397ffef9faa779c1e681dca3322fa (HEAD, ExtraneousCraft/master, master)
+Author: Astorian <royalgamingarmy@gmail.com>
+Date:   Sun Mar 24 18:28:12 2013 +0200
+
+    Fixed a debug feature the mod works on SMP!!! thanks to ZeroLevels
+
+commit ea824329e894793ad09f0218615d903f7d571dff
+Author: Astorian <royalgamingarmy@gmail.com>
+Date:   Sun Mar 24 18:07:26 2013 +0200
+
+    just a few updates and starting on blocks...
+
+commit ccd7e73f1201e6ceed2f254a22298a704f1fead4
+Author: Astorian <royalgamingarmy@gmail.com>
+Date:   Sun Mar 24 13:59:02 2013 +0200
+
+    Everything is working like charm on builds but not on testing enviroment :D
+
+commit 097a5004be23eb9674814fb4ec3ac7a03b0524df
+Author: Astorian <royalgamingarmy@gmail.com>
+Date:   Sun Mar 24 12:17:04 2013 +0200
+
+    Update README.md
+
+commit 41b73107f10e4c723fd58bcef7e776f97a0eed85
+Author: Astorian <royalgamingarmy@gmail.com>
+Date:   Sun Mar 24 12:16:23 2013 +0200
+
+    Update README.md
+
+commit 4f1c8868481363fb5bdc57c2f8673bb3d8c2efb1
+Author: Astorian <royalgamingarmy@gmail.com>
+Date:   Sun Mar 24 12:15:36 2013 +0200
+
+    Readme Update
+
+commit b8e7e7f88b3377544781187bc256bd24f5bbf4ce
+Author: Astorian <royalgamingarmy@gmail.com>
+Date:   Sun Mar 24 12:06:15 2013 +0200
+
+    Autobuild system is complete now textures just don't work
+
+commit 4424afe5ed5404216895204a8d4c468d203ef12c
+Author: Astorian <royalgamingarmy@gmail.com>
+Date:   Sun Mar 24 11:29:16 2013 +0200
+
+    Update on Changelog
+
+commit 94c3de38e42f0b19cd437bf79b0b7a74fc9c4d66
 Author: Astorian <royalgamingarmy@gmail.com>
 Date:   Sun Mar 24 11:07:07 2013 +0200
 
