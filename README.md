@@ -65,7 +65,7 @@ Infernal Incinerator:
 ---------------------
 Furnace that uses vE.(MultiBlock Considration)
 
-Sapling Accumulator (+Added in 0.01alpha)
+Herbal Accumulator (+Added in 0.01alpha)
 -----------------------------------------
-Just a Forestry grafter for vanilla trees work on this continues for detecting saplings.
+You invented a way to safely accumulate herbal stuff like Saplings, vines or seeds, it seems fairly weak but maybe there is some way to reinforce it.
 
