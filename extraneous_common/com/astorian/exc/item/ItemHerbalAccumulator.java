@@ -56,7 +56,7 @@ public class ItemHerbalAccumulator extends ItemTool {
 			    			par2World.spawnEntityInWorld(new EntityItem(par2World, x + 0.5D, y + 0.5D, z + 0.5D, new ItemStack(Block.sapling, 1, saplingMetadata)));
 			    		}
 
-			    	} else if(blockID == Block.grass.blockID) {
+			    	} else if(blockID == Block.tallGrass.blockID) {
 			    		par2World.spawnEntityInWorld(new EntityItem(par2World, x + 0.5D, y + 0.5D, z + 0.5D, new ItemStack(Item.seeds, 1)));
 			    	} else if(blockID == Block.vine.blockID) {
 			    		par2World.spawnEntityInWorld(new EntityItem(par2World, x + 0.5D, y + 0.5D, z + 0.5D, new ItemStack(Block.vine, 1)));
