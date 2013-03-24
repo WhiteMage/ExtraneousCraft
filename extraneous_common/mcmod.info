@@ -11,7 +11,7 @@
     "Everyone on GitHub"
   ],
   "credits": "This is an OpenSource mod by Astorian",
-  "logoFile": "resources/art/ExtraneousLogo.png",
+  "logoFile": "textures/logo/ExtraneousLogo.png",
   "screenshots": [
   ],
   "parent":"",
