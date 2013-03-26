@@ -11,6 +11,7 @@ import com.astorian.exc.tile.TileEntityVoidHeliograph;
 
 import cpw.mods.fml.client.registry.ClientRegistry;
 import cpw.mods.fml.client.registry.RenderingRegistry;
+import cpw.mods.fml.common.registry.GameRegistry;
 
 public class ClientProxy extends CommonProxy {
 	
@@ -20,6 +21,11 @@ public class ClientProxy extends CommonProxy {
 		ClientRegistry.bindTileEntitySpecialRenderer(TileEntityVoidHeliograph.class, new TileEntityVoidHeliographRenderer());
 		MinecraftForgeClient.registerItemRenderer(ExtraneousBlocks.voidHeliograph.blockID, new ItemVoidHeliographRenderer());
 
+	}
+	
+	@Override
+	public void registerTileEntites() {
+		GameRegistry.registerTileEntity(TileEntityVoidHeliograph.class, "tileEntityVoidHeliograph");
 	}
 
 }

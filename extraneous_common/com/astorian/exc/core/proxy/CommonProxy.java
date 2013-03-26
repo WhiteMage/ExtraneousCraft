@@ -9,4 +9,6 @@ public class CommonProxy {
 
 	public void initTileEntities() {}
 
+	public void registerTileEntites() {}
+
 }
