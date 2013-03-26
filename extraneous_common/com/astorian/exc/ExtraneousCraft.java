@@ -69,9 +69,6 @@ public class ExtraneousCraft {
 		 //Registers ore and Items that may also be in other Mods
 		 proxy.oreDictionary();
 		 
-		 // Initialize Tile entities
-		 proxy.initTileEntities();
-		 
 		 // Register block and Item Renderers
 		 proxy.registerRenderers();
 		 

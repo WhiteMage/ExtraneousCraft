@@ -1,9 +1,14 @@
 package com.astorian.exc.model.render;
 
+import org.lwjgl.opengl.GL11;
+
 import com.astorian.exc.model.ModelVoidHeliograph;
 import com.astorian.exc.tile.TileEntityVoidHeliograph;
 
+import cpw.mods.fml.client.FMLClientHandler;
+
 import net.minecraft.client.renderer.tileentity.TileEntityRenderer;
+import net.minecraft.entity.Entity;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.client.IItemRenderer;
 
@@ -12,7 +17,7 @@ public class ItemVoidHeliographRenderer implements IItemRenderer  {
 	private ModelVoidHeliograph model;
 	
 	public ItemVoidHeliographRenderer() {
-        model = new ModelVoidHeliograph();
+		model = new ModelVoidHeliograph();
 	}
 
 	@Override

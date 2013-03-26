@@ -1,7 +1,15 @@
 package com.astorian.exc.model;
 
+import org.lwjgl.opengl.GL11;
+
+import com.astorian.exc.lib.TextureLib;
+import com.astorian.exc.tile.TileEntityVoidHeliograph;
+
+import cpw.mods.fml.client.FMLClientHandler;
+
 import net.minecraft.client.model.ModelBase;
 import net.minecraft.client.model.ModelRenderer;
+import net.minecraft.client.renderer.Tessellator;
 import net.minecraft.entity.Entity;
 
 public class ModelVoidHeliograph extends ModelBase
@@ -13,6 +21,8 @@ public class ModelVoidHeliograph extends ModelBase
     ModelRenderer LExtension;
     ModelRenderer BaseTop;
     ModelRenderer ExtensionBase;
+    
+    private float scale = 1F;
   
   public ModelVoidHeliograph()
   {
@@ -76,18 +86,30 @@ public class ModelVoidHeliograph extends ModelBase
     model.rotateAngleZ = z;
   }
   
+  public void render(Entity entity,TileEntityVoidHeliograph heliograph, double x, double y, double z) {
+
+      GL11.glPushMatrix();
+      GL11.glDisable(GL11.GL_LIGHTING);
+      GL11.glTranslatef((float) x + 0.5F, (float) y + 0.0F, (float) z + 1.2F);
+      GL11.glRotatef(0F, 0F, 0F, 0F);
+      GL11.glRotatef(0F, 0F, 0F, 0F);
+      FMLClientHandler.instance().getClient().renderEngine.bindTexture(TextureLib.VOID_HELIOGRAPH_TEXTURE);
+      GL11.glEnable(GL11.GL_LIGHTING);
+      GL11.glPopMatrix();
+  }
+  
   public void setRotationAngles(float f, float f1, float f2, float f3, float f4, float f5, Entity entity)
   {
     super.setRotationAngles(f, f1, f2, f3, f4, f5, entity);
   }
   
-  public void renderAll() {
-	  Base.render(0.625f);
-	  Column.render(0.625f);
-	  RExtension.render(0.625f);
-	  LExtension.render(0.625f);
-	  BaseTop.render(0.625f);
-	  ExtensionBase.render(0.625f);
+  public void renderAll(float f1) {
+	  Base.render(f1);
+	  Column.render(f1);
+	  RExtension.render(f1);
+	  LExtension.render(f1);
+	  BaseTop.render(f1);
+	  ExtensionBase.render(f1);
   }
 
 }
