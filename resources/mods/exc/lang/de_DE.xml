@@ -4,7 +4,10 @@
   <!-- German (DE) Localization File -->
 	<!-- Author: heddendl -->
 	    <entry key="item.herbalAccumulator.name">Kräutersammler</entry>
-	    <entry key="item.ingotEterneous.name">Ewiger Stein</entry>
+	    <entry key="item.ingotEterneous.name">Kys Barren</entry>
+	    <entry key="item.chunkEterneous.name">Kys Klumpen</entry>
 	<!-- Tiles (Blocks) -->
 	    <entry key="tile.voidHeliograph.name">Kys Manipulator</entry>
+	<!-- Creative Tab -->
+	    <entry key="itemGroup.EXC">Extraneous Craft</entry>
 </properties>
