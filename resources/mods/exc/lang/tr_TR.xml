@@ -6,6 +6,10 @@
     <!-- Item Related -->
 	    <entry key="item.herbalAccumulator.name">Bitkisel Akümülatör</entry>
 	    <entry key="item.ingotEterneous.name">Eterneous Külçesi</entry>
+	    <entry key="item.chunkEterneous.name">Eterneous Parçası</entry>
 	<!-- Tile(Blocks) Related -->
 	    <entry key="tile.voidHeliograph.name">Boşluk Helyografı</entry>
+	<!-- Creative Tabs -->
+	    <entry key="itemGroup.EXC">Extraneous Craft</entry>    
+	    
 </properties>

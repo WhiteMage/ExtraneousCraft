@@ -6,12 +6,16 @@ import com.astorian.exc.lib.TextureLib;
 import com.astorian.exc.model.ModelVoidHeliograph;
 import com.astorian.exc.tile.TileEntityVoidHeliograph;
 
+import net.minecraft.client.renderer.Tessellator;
 import net.minecraft.client.renderer.tileentity.TileEntitySpecialRenderer;
 import net.minecraft.tileentity.TileEntity;
+import net.minecraft.util.MathHelper;
 
 public class TileEntityVoidHeliographRenderer extends TileEntitySpecialRenderer {
 	
 	private ModelVoidHeliograph model;
+	
+	private static TileEntityVoidHeliograph tileVoidHeliograph;
 	
 	public TileEntityVoidHeliographRenderer() {
 		model = new ModelVoidHeliograph();
@@ -31,6 +35,7 @@ public class TileEntityVoidHeliographRenderer extends TileEntitySpecialRenderer 
 	public void renderTileEntityAt(TileEntity tileentity, double x, double y,
 			double z, float tick) {
 		this.renderAModelAt((TileEntityVoidHeliograph)tileentity, x, y, z, tick);	
+		
 	}
 
 }

@@ -1,5 +1,6 @@
 package com.astorian.exc.block;
 
+import com.astorian.exc.ExtraneousCraft;
 import com.astorian.exc.lib.BlockIDs;
 import com.astorian.exc.lib.Reference;
 
@@ -34,7 +35,7 @@ public class ExtraneousBlocks extends Block {
 	}
 	
 	public static void registerTabs() {
-		
+		voidHeliograph.setCreativeTab(ExtraneousCraft.tabEXC);
 	}
 	
 	@Override

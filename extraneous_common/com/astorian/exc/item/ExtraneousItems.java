@@ -1,6 +1,8 @@
 package com.astorian.exc.item;
 
 import cpw.mods.fml.common.registry.LanguageRegistry;
+
+import com.astorian.exc.ExtraneousCraft;
 import com.astorian.exc.lib.ItemIDs;
 import com.astorian.exc.lib.Reference;
 
@@ -39,7 +41,8 @@ public class ExtraneousItems extends Item {
 	
 	public static void registerTabs() {
 		
-		ingotEterneous.setCreativeTab(CreativeTabs.tabMaterials); //TODO Temporary tab :P
+		ingotEterneous.setCreativeTab(ExtraneousCraft.tabEXC);
+		herbalAccumulator.setCreativeTab(ExtraneousCraft.tabEXC);
 		
 	}
 	

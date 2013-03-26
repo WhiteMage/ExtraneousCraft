@@ -2,6 +2,8 @@ package com.astorian.exc;
 
 import java.io.File;
 
+import net.minecraft.creativetab.CreativeTabs;
+
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.Init;
 import cpw.mods.fml.common.Mod.Instance;
@@ -20,6 +22,7 @@ import com.astorian.exc.core.handler.LocalizationHandler;
 import com.astorian.exc.core.handler.PacketHandler;
 import com.astorian.exc.core.helper.RecipeHelper;
 import com.astorian.exc.core.proxy.CommonProxy;
+import com.astorian.exc.creativetab.CreativeTabExtraneousCraft;
 import com.astorian.exc.item.ExtraneousItems;
 import com.astorian.exc.lib.Reference;
 
@@ -39,6 +42,8 @@ public class ExtraneousCraft {
 	 
 	 @SidedProxy(clientSide=Reference.CLIENT_PROXY, serverSide=Reference.COMMON_PROXY)
      public static CommonProxy proxy;
+	 
+	 public static CreativeTabs tabEXC = new CreativeTabExtraneousCraft(CreativeTabs.getNextID(), Reference.MOD_ID);
 	 
 	 @PreInit
      public void preInit(FMLPreInitializationEvent event) {

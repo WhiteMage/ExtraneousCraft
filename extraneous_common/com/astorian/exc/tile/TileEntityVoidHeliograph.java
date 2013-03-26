@@ -4,6 +4,8 @@ import net.minecraft.tileentity.TileEntity;
 
 public class TileEntityVoidHeliograph extends TileEntity {
 	
+	public static float isActive = 0.0F;
+	
 	public TileEntityVoidHeliograph() {}
 	
 	public boolean isNightTime() {
@@ -18,8 +20,10 @@ public class TileEntityVoidHeliograph extends TileEntity {
 	
 	public boolean isWorking() {
 		if(!isNightTime()) {
+			isActive = 1.1F;
 			return true;
 		} else
+			isActive = 0.0F;
 			return false;
 	}
 
