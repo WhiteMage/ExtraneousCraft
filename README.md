@@ -15,8 +15,8 @@ Herbal Accumulator (+Added in 0.01alpha)
 -----------------------------------------
 You invented a way to safely accumulate herbal stuff like Saplings, vines or seeds, it seems fairly weak but maybe there is some way to reinforce it.
 
-Void Heliograph:   
-----------------
+Void Heliograph (Currently working on GUI):   
+-------------------------------------------
 You've been blessed with the tiniest amount of alienic research for creating this machine it'll be an essential to Craft different machines throughout your adventures of altering Space&Time. This is a machine that can use Void Energy to energize itself to combine different materials into one.
 
 Void Concentrator:
