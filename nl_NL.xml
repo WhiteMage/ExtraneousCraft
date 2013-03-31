@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties version="1.0">
+<!-- DUTCH (NL) Localization File -->
+<!-- Author: Arnatoras -->
+    <!-- Item Related -->
+      <entry key="item.herbalAccumulator.name">Kruiden Verzamelaar</entry>
+	    <entry key="item.ingotEterneous.name">Eterneous Staaf</entry>
+	    <entry key="item.chunkEterneous.name">Eterneous Klomp</entry>
+	<!-- Tile(Blocks) Related -->
+	    <entry key="tile.voidHeliograph.name">Lege Heliograaf</entry>
+	<!-- Creative Tab -->
+	    <entry key="itemGroup.EXC">Extraneous Craft</entry>  
+
+</properties>
