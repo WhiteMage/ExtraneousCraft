@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties version="1.0">
+<!-- Español (ES) Localization File -->
+<!-- Author: tfmtoto / LexToto -->
+    <!-- Item Related -->
+	    <entry key="item.herbalAccumulator.name">Herbal Accumulator</entry>
+	    <entry key="item.ingotEterneous.name">Eterneous Ingot</entry>
+	    <entry key="item.chunkEterneous.name">Eterneous Chunk</entry>
+	<!-- Tile(Blocks) Related -->
+	    <entry key="tile.voidHeliograph.name">Void Heliograph</entry>
+	<!-- Creative Tab -->
+	    <entry key="itemGroup.EXC">Extraneous Craft</entry>  
+
+</properties>
