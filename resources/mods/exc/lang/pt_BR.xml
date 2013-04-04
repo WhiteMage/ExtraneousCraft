@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties version="1.0">
+<!-- Português do Brasil (pt_BR) Localization File -->
+<!-- Author: Sarrabiscos -->
+    <!-- Item Related -->
+	    <entry key="item.herbalAccumulator.name">Acumulador de Ervas</entry>
+	    <entry key="item.ingotEterneous.name">Lingote de Eterneous</entry>
+	    <entry key="item.chunkEterneous.name">Pedaço de Eterneous</entry>
+	<!-- Tile(Blocks) Related -->
+	    <entry key="tile.voidHeliograph.name">Heliógrafo do Vazio</entry>
+	<!-- Creative Tab -->
+	    <entry key="itemGroup.EXC">Extraneous Craft</entry>  
+
+</properties>
