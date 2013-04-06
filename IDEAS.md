@@ -12,3 +12,10 @@ These plans generate only in certain biomes and in certain conditions they can b
 
 ***
 
+**2. Void Container:**
+
+This container is forged trough exclusive use of void/space attributes of Obsidian material it is fairly large compared to a chest and is resistant to any explosives. Will emit void light in dark places lighting up the place a bit... Can be upgraded with a Suction module later-on to collect items in a nearby radius.
+
+**Author:** *Astorian*
+
+***
