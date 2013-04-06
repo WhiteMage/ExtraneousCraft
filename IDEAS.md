@@ -1,5 +1,7 @@
 ## ExtraneousCraft Idea and Contribution List:
 
+I have created this list/file as the future idea source of ExtraneousCraft so the mod keeps it's unique feel... Ideas that are contributed to this file are for exclusive use in ExtraneousCraft but there's nothing wrong to be inspired by them and make/use something fairly new out of them... I allow anyone to reach read or edit this file to contribute/suggest more ideas do not forget to write the name of the author so you get your credit in the mod...
+
 ***
 
 **1. Infused Herbs/Plants:**
