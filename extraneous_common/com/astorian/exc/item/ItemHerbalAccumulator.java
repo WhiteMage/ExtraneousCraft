@@ -23,6 +23,8 @@ public class ItemHerbalAccumulator extends ItemTool {
 	
 	private static BlockLeaves leaves;
 
+        private static Random random = new Random();
+
 	public ItemHerbalAccumulator(int id, int par2, EnumToolMaterial toolMaterial, Block[] blocksEffectiveAgainst) {
 		super(id, par2, toolMaterial, blocksEffectiveAgainst);
 		this.maxStackSize = 1;
@@ -38,28 +40,30 @@ public class ItemHerbalAccumulator extends ItemTool {
 			    if(!par2World.isRemote) {
 			    	
 			    	if(blockID == Block.leaves.blockID) {
+
+                                    dropRate = random.nextInt(3) + 1;
 			    		
 			    		/*
 			    		 * Finds and Returns right sapling of Corresponding trees
 			    		 */
 			    		if(Block.leaves.getDamageValue(par2World, x, y, z) == 0) {
 			    			saplingMetadata = 0; //Oak
-			    			par2World.spawnEntityInWorld(new EntityItem(par2World, x + 0.5D, y + 0.5D, z + 0.5D, new ItemStack(Block.sapling, 1, saplingMetadata)));
+			    			par2World.spawnEntityInWorld(new EntityItem(par2World, x + 0.5D, y + 0.5D, z + 0.5D, new ItemStack(Block.sapling, dropRate, saplingMetadata)));
 			    		} else if(Block.leaves.getDamageValue(par2World, x, y, z) == 1) {
 			    			saplingMetadata = 1; //Spruce
-			    			par2World.spawnEntityInWorld(new EntityItem(par2World, x + 0.5D, y + 0.5D, z + 0.5D, new ItemStack(Block.sapling, 1, saplingMetadata)));
+			    			par2World.spawnEntityInWorld(new EntityItem(par2World, x + 0.5D, y + 0.5D, z + 0.5D, new ItemStack(Block.sapling, dropRate, saplingMetadata)));
 			    		} else if(Block.leaves.getDamageValue(par2World, x, y, z) == 2) {
 			    			saplingMetadata = 2; //Birch
-			    			par2World.spawnEntityInWorld(new EntityItem(par2World, x + 0.5D, y + 0.5D, z + 0.5D, new ItemStack(Block.sapling, 1, saplingMetadata)));
+			    			par2World.spawnEntityInWorld(new EntityItem(par2World, x + 0.5D, y + 0.5D, z + 0.5D, new ItemStack(Block.sapling, dropRate, saplingMetadata)));
 			    		} else if(Block.leaves.getDamageValue(par2World, x, y, z) == 3) {
 			    			saplingMetadata = 3; //Jungle
-			    			par2World.spawnEntityInWorld(new EntityItem(par2World, x + 0.5D, y + 0.5D, z + 0.5D, new ItemStack(Block.sapling, 1, saplingMetadata)));
+			    			par2World.spawnEntityInWorld(new EntityItem(par2World, x + 0.5D, y + 0.5D, z + 0.5D, new ItemStack(Block.sapling, dropRate, saplingMetadata)));
 			    		}
 
 			    	} else if(blockID == Block.tallGrass.blockID) {
-			    		par2World.spawnEntityInWorld(new EntityItem(par2World, x + 0.5D, y + 0.5D, z + 0.5D, new ItemStack(Item.seeds, 1)));
+			    		par2World.spawnEntityInWorld(new EntityItem(par2World, x + 0.5D, y + 0.5D, z + 0.5D, new ItemStack(Item.seeds, dropRate)));
 			    	} else if(blockID == Block.vine.blockID) {
-			    		par2World.spawnEntityInWorld(new EntityItem(par2World, x + 0.5D, y + 0.5D, z + 0.5D, new ItemStack(Block.vine, 1)));
+			    		par2World.spawnEntityInWorld(new EntityItem(par2World, x + 0.5D, y + 0.5D, z + 0.5D, new ItemStack(Block.vine, dropRate)));
 			    	} else
 			    		return false;
 			    }
