@@ -1,24 +1,26 @@
 <? xml version="1.0" encoding="UTF-8" ?>
+
 <data>
   <research>
     <name>Eterneous Material</name>
-    <description lang="en_US">
-	    Created by the unstable compound of Void Material. This Material is tough and capable enough to make tools out of it. And the tools seem to have strange magical capabilities.
-	  </description>
-	  <level>Rare</level>
+	<description lang="en_US">
+	  Created by the unstable compound of Void Material. This Material is tough and capable enough to make tools out of it. And the tools seem to have strange magical capabilities.
+	</description>
+	<level>Rare</level>
   </research>
   <research>
     <name>Herbal Accumulating</name>
-  	<description lang="en_US">
-	    Just by refining a tool you discovered a way to accumulate Herbs and Plants without damaging them... Doing so takes a lot of durability though...
-	  </description>
-	  <level>Common</level>
+	<description lang="en_US">
+	  Just by refining a tool you discovered a way to accumulate Herbs and Plants without damaging them... Doing so takes a lot of durability though...
+	</description>
+	<level>Common</level>
   </research>
   <research>
     <name>Infused Compound</name>
-	  <description lang="en_US">
-	    Discovered worldly things like some herbs and plants are infused with VoidEnergy and can be used to create different material. There maybe a way to "accumulate" them ;).
-	  </description>
-  	<level>Un-Common</level>
-    </research>
+	<description lang="en_US">
+	  Discovered worldly things like some herbs and plants are infused with VoidEnergy and can be used to create different material. There maybe a way to "accumulate" them ;).
+	</description>
+	<level>Un-Common</level>
+  </research>
 </data>
+  
