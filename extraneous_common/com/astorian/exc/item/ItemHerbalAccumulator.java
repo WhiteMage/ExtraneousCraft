@@ -41,7 +41,7 @@ public class ItemHerbalAccumulator extends ItemTool {
 			    	
 			    	if(blockID == Block.leaves.blockID) {
 
-                                    dropRate = random.nextInt(3) + 1;
+                                    dropRate = 1 + random.nextInt(2);
 			    		
 			    		/*
 			    		 * Finds and Returns right sapling of Corresponding trees
