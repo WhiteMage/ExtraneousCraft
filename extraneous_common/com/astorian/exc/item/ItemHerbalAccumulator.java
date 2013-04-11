@@ -33,6 +33,11 @@ public class ItemHerbalAccumulator extends ItemTool {
 		this.setUnlocalizedName("herbalAccumulator");
 	}
 	
+	@Override
+    public String getItemDisplayName(ItemStack itemStack) {
+        return EnumChatFormatting.YELLOW + super.getItemDisplayName(itemStack);
+    }
+	
 	 public boolean onBlockDestroyed(ItemStack par1ItemStack, World par2World, int blockID, int x, int y, int z, EntityLiving par7EntityLiving) 
 	 {
 		 if (super.onBlockDestroyed(par1ItemStack, par2World, blockID, x, y, z, par7EntityLiving))
