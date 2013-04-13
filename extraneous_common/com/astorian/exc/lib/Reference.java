@@ -1,7 +1,5 @@
 package com.astorian.exc.lib;
 
-import net.minecraft.stats.AchievementList;
-
 public class Reference {
 	
 	public static final String MOD_NAME = "ExtraneousCraft";

@@ -17,6 +17,7 @@ public class ExtraneousBlocks extends Block {
 	}
 	
 	public static Block voidHeliograph;
+	public static Block voidContainer;
 
 	public static void init() {
 		defineBlocks();
@@ -27,15 +28,18 @@ public class ExtraneousBlocks extends Block {
 	public static void defineBlocks() {
 		
 		voidHeliograph = new BlockVoidHeliograph(BlockIDs.VoidHeliograph, Material.rock);
+		voidContainer = new BlockVoidContainer(BlockIDs.VoidContainer, Material.iron);
 		
 	}
 	
 	public static void registerBlocks() {
 		GameRegistry.registerBlock(voidHeliograph, voidHeliograph.getUnlocalizedName());
+		GameRegistry.registerBlock(voidContainer, voidContainer.getUnlocalizedName());
 	}
 	
 	public static void registerTabs() {
 		voidHeliograph.setCreativeTab(ExtraneousCraft.tabEXC);
+		voidContainer.setCreativeTab(ExtraneousCraft.tabEXC);
 	}
 	
 	@Override

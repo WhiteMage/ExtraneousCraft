@@ -36,6 +36,7 @@ public class ConfigurationHandler {
             
             /* Block constants */
             BlockIDs.VoidHeliograph = config.getBlock("voidHeliograph", BlockIDs.VoidHeliograph_Default).getInt(BlockIDs.VoidHeliograph_Default);
+            BlockIDs.VoidContainer = config.getBlock("voidContainer", BlockIDs.VoidContainer_Default).getInt(BlockIDs.VoidContainer_Default);
             
             /* Item constants */
             ItemIDs.SaplingAccumulator = config.getItem("herbalAccumulator", ItemIDs.SaplingAccumulator_Default).getInt(ItemIDs.SaplingAccumulator_Default);
