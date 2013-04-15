@@ -12,6 +12,8 @@ import net.minecraft.world.World;
 import com.astorian.exc.tile.TileEntityVoidHeliograph;
 
 public class BlockVoidHeliograph extends BlockContainer {
+    
+    private TileEntityVoidHeliograph tile;
 
     public BlockVoidHeliograph(int id, Material par2Material) {
         super(id, Material.rock);
@@ -19,6 +21,7 @@ public class BlockVoidHeliograph extends BlockContainer {
         this.setUnlocalizedName("voidHeliograph");
         this.setHardness(2.0F);
         this.setResistance(6000F);
+        this.setLightValue(0.02f);
     }
 
     /**

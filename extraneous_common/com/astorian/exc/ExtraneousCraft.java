@@ -55,8 +55,8 @@ public class ExtraneousCraft {
 	     LocalizationHandler.loadLanguages();
 		 
 		 // Initialize the configuration
-	     ConfigurationHandler.init(new File(event.getModConfigurationDirectory().getAbsolutePath() + "\\extraneouscraft\\" + Reference.MOD_NAME + ".cfg"));
-	        
+	     ConfigurationHandler.init(new File(event.getModConfigurationDirectory().getAbsolutePath() + "\\extraneouscraft\\" + Reference.MOD_NAME + ".cfg"));    
+	     
 	     // Initialize items
 		 ExtraneousItems.init();
 		 
