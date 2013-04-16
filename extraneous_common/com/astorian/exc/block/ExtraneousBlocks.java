@@ -11,6 +11,8 @@ import com.astorian.exc.lib.Reference;
 import cpw.mods.fml.common.registry.GameRegistry;
 
 public class ExtraneousBlocks extends Block {
+    
+    public static ArrayList<Block> blockList = new ArrayList<Block>();
 
     public ExtraneousBlocks(int id, Material par2Material) {
         super(id, par2Material);
@@ -20,8 +22,14 @@ public class ExtraneousBlocks extends Block {
     public static Block voidContainer;
 
     public static Block corruptedGrass;
+    
+    public static void listBlocks() {
+        blockList.add(voidHeliograph);
+        blockList.add(corruptedGrass);
+    }
 
     public static void init() {
+        listBlocks();
         defineBlocks();
         registerBlocks();
         registerTabs();
@@ -40,8 +48,12 @@ public class ExtraneousBlocks extends Block {
 
     public static void registerBlocks() {
         
-        GameRegistry.registerBlock(corruptedGrass, corruptedGrass.getUnlocalizedName());
-        GameRegistry.registerBlock(voidHeliograph, voidHeliograph.getUnlocalizedName());
+        // GameRegistry.registerBlock(corruptedGrass, corruptedGrass.getUnlocalizedName());
+        // GameRegistry.registerBlock(voidHeliograph, voidHeliograph.getUnlocalizedName());
+        
+        for(final Block block : blockList) {
+            GameRegistry.registerBlock(block, block.getUnlocalizedName());
+        }
 
     }
 
