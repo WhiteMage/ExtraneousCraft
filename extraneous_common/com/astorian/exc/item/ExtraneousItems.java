@@ -1,5 +1,6 @@
 package com.astorian.exc.item;
 
+import net.minecraft.block.Block;
 import net.minecraft.client.renderer.texture.IconRegister;
 import net.minecraft.item.EnumToolMaterial;
 import net.minecraft.item.Item;
@@ -13,47 +14,53 @@ import cpw.mods.fml.relauncher.SideOnly;
 
 public class ExtraneousItems extends Item {
 
-    public ExtraneousItems(int par1) {
-        super(par1);
-    }
+	private static int placeHolder = 0;
 
-    public static Item ingotEterneous;
-    public static Item chunkEterneous;
-    public static Item eterneousFallBoots;
-    public static Item herbalAccumulator;
+	public ExtraneousItems(int par1) {
+		super(par1);
+	}
 
-    public static void init() {
+	public static Item ingotEterneous;
+	public static Item chunkEterneous;
+	public static Item eterneousFallBoots;
+	public static Item herbalAccumulator;
+	public static Item infusedSeeds;
 
-        registerItems();
-        registerTabs();
+	public static void init() {
 
-    }
+		registerItems();
+		registerTabs();
 
-    public static void registerItems() {
+	}
 
-        ingotEterneous = new Item(ItemIDs.EterneousIngot)
-                .setUnlocalizedName("ingotEterneous");
+	public static void registerItems() {
 
-        herbalAccumulator = new ItemHerbalAccumulator(
-                ItemIDs.SaplingAccumulator, 0, EnumToolMaterial.WOOD,
-                ItemHerbalAccumulator.blocksEffectiveAgainst);
-    }
+		ingotEterneous = new Item(ItemIDs.EterneousIngot)
+				.setUnlocalizedName("ingotEterneous");
 
-    public static void registerTabs() {
+		herbalAccumulator = new ItemHerbalAccumulator(
+				ItemIDs.SaplingAccumulator, 0, EnumToolMaterial.WOOD,
+				ItemHerbalAccumulator.blocksEffectiveAgainst);
 
-        ingotEterneous.setCreativeTab(ExtraneousCraft.tabEXC);
-        herbalAccumulator.setCreativeTab(ExtraneousCraft.tabEXC);
+		infusedSeeds = new ItemInfusedSeeds(ItemIDs.InfusedSeeds, placeHolder,
+				Block.tilledField.blockID);
+	}
 
-    }
+	public static void registerTabs() {
 
-    @Override
-    @SideOnly(Side.CLIENT)
-    // public void setIconIndex(IconRegister iconRegister)
-    public void registerIcons(IconRegister iconRegister) {
-        itemIcon = iconRegister.registerIcon(Reference.MOD_ID.toLowerCase()
-                + ":"
-                + this.getUnlocalizedName().substring(
-                        this.getUnlocalizedName().indexOf(".") + 1));
-    }
+		ingotEterneous.setCreativeTab(ExtraneousCraft.tabEXC);
+		herbalAccumulator.setCreativeTab(ExtraneousCraft.tabEXC);
+
+	}
+
+	@Override
+	@SideOnly(Side.CLIENT)
+	// public void setIconIndex(IconRegister iconRegister)
+	public void registerIcons(IconRegister iconRegister) {
+		itemIcon = iconRegister.registerIcon(Reference.MOD_ID.toLowerCase()
+				+ ":"
+				+ this.getUnlocalizedName().substring(
+						this.getUnlocalizedName().indexOf(".") + 1));
+	}
 
 }

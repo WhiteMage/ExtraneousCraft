@@ -41,6 +41,7 @@ public class ConfigurationHandler {
             /* Item constants */
             ItemIDs.SaplingAccumulator = config.getItem("herbalAccumulator", ItemIDs.SaplingAccumulator_Default).getInt(ItemIDs.SaplingAccumulator_Default);
             ItemIDs.EterneousIngot = config.getItem("ingotEterneous", ItemIDs.EterneousIngot_Default).getInt(ItemIDs.EterneousIngot_Default);
+            ItemIDs.InfusedSeeds = config.getItem("infusedSeeds", ItemIDs.InfusedSeeds_Default).getInt(ItemIDs.InfusedSeeds_Default);
 		
 		
 		} catch(Exception e) {
