@@ -19,3 +19,9 @@ This container is forged trough exclusive use of void/space attributes of Obsidi
 **Author:** *Astorian*
 
 ***
+
+**3. Liquidifier**
+
+This machine does not require energy but needs a fair bit of time to complete it's processes. It only seems to work on certain materials though. Seems like liquidified Obsidian in some capsules would be nice to have for further stuff ;)
+
+**Author:** *Astorian*
