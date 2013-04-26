@@ -17,7 +17,7 @@ public class ExtraneousBlocks extends Block {
     }
 
     public static Block voidHeliograph;
-    public static Block voidContainer;
+    // public static Block voidContainer;
 
     public static Block corruptedGrass;
 
@@ -31,16 +31,15 @@ public class ExtraneousBlocks extends Block {
 
         voidHeliograph = new BlockVoidHeliograph(BlockIDs.VoidHeliograph,
                 Material.rock);
-        voidContainer = new BlockVoidContainer(BlockIDs.VoidContainer);
+        // voidContainer = new BlockVoidContainer(BlockIDs.VoidContainer);
 
-        corruptedGrass = new ExtraneousBlocks(BlockIDs.CorruptedGrass,
-                Material.grass).setUnlocalizedName("corruptedGrass");
+        // corruptedGrass = new BlockCorruptedGrass(BlockIDs.CorruptedGrass).setUnlocalizedName("corruptedGrass");
 
     }
 
     public static void registerBlocks() {
         
-        GameRegistry.registerBlock(corruptedGrass, corruptedGrass.getUnlocalizedName());
+        // GameRegistry.registerBlock(corruptedGrass, corruptedGrass.getUnlocalizedName());
         GameRegistry.registerBlock(voidHeliograph, voidHeliograph.getUnlocalizedName());
 
     }

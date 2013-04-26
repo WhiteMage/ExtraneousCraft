@@ -1,6 +1,5 @@
 package com.astorian.exc.item;
 
-import net.minecraft.block.Block;
 import net.minecraft.client.renderer.texture.IconRegister;
 import net.minecraft.item.EnumToolMaterial;
 import net.minecraft.item.Item;
@@ -14,7 +13,7 @@ import cpw.mods.fml.relauncher.SideOnly;
 
 public class ExtraneousItems extends Item {
 
-	private static int placeHolder = 0;
+	// private static int placeHolder = 0;
 
 	public ExtraneousItems(int par1) {
 		super(par1);
@@ -24,7 +23,7 @@ public class ExtraneousItems extends Item {
 	public static Item chunkEterneous;
 	public static Item eterneousFallBoots;
 	public static Item herbalAccumulator;
-	public static Item infusedSeeds;
+	public static Item infusedSeed;
 
 	public static void init() {
 
@@ -42,8 +41,7 @@ public class ExtraneousItems extends Item {
 				ItemIDs.SaplingAccumulator, 0, EnumToolMaterial.WOOD,
 				ItemHerbalAccumulator.blocksEffectiveAgainst);
 
-		infusedSeeds = new ItemInfusedSeeds(ItemIDs.InfusedSeeds, placeHolder,
-				Block.tilledField.blockID);
+		infusedSeed = new ItemInfusedSeeds(ItemIDs.InfusedSeeds);
 	}
 
 	public static void registerTabs() {
@@ -56,8 +54,8 @@ public class ExtraneousItems extends Item {
 	@Override
 	@SideOnly(Side.CLIENT)
 	// public void setIconIndex(IconRegister iconRegister)
-	public void registerIcons(IconRegister iconRegister) {
-		itemIcon = iconRegister.registerIcon(Reference.MOD_ID.toLowerCase()
+	public void updateIcons(IconRegister iconRegister) {
+		this.iconIndex = iconRegister.registerIcon(Reference.MOD_ID.toLowerCase()
 				+ ":"
 				+ this.getUnlocalizedName().substring(
 						this.getUnlocalizedName().indexOf(".") + 1));

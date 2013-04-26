@@ -86,6 +86,7 @@
 				<exclude name="\lang\" />
 				<exclude name="\sound\"/>
 				<exclude name="\models\"/>
+				<exclude name="\data\" />
 			</fileset>	
 		</jar>
 

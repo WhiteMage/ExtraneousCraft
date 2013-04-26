@@ -6,7 +6,6 @@ import net.minecraft.block.BlockContainer;
 import net.minecraft.block.material.Material;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.tileentity.TileEntity;
-import net.minecraft.util.AxisAlignedBB;
 import net.minecraft.world.World;
 
 import com.astorian.exc.tile.TileEntityVoidHeliograph;
@@ -22,6 +21,7 @@ public class BlockVoidHeliograph extends BlockContainer {
         this.setHardness(2.0F);
         this.setResistance(6000F);
         this.setLightValue(0.02f);
+        this.setBlockBounds(0.9375F, 1.0F, 0.9375F, 0.9375F, 1.0F, 0.9375F);
     }
 
     /**
@@ -32,15 +32,18 @@ public class BlockVoidHeliograph extends BlockContainer {
         return 1;
     }
 
-    /**
-     * Returns the bounding black box, in this case 0.
-     */
+    /*
+     * Returns the bounding black box, in this case 0. return all par(s) for 0 again.
+     
     @Override
     public AxisAlignedBB getSelectedBoundingBoxFromPool(World par1World,
             int par2, int par3, int par4) {
         return AxisAlignedBB.getAABBPool().getAABB(par2, par3, par4, par2,
                 par3, par4);
     }
+    
+    */
+    
 
     /**
      * Obviously it's not an opaque cube.

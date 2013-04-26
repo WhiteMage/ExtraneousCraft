@@ -2,6 +2,9 @@ package com.astorian.exc.item;
 
 import java.util.Random;
 
+import com.astorian.exc.addon.AddonIC2;
+import com.astorian.exc.core.helper.CheckHelper;
+
 import net.minecraft.block.Block;
 import net.minecraft.entity.EntityLiving;
 import net.minecraft.entity.item.EntityItem;
@@ -86,7 +89,16 @@ public class ItemHerbalAccumulator extends ItemTool {
                             x + 0.5D, y + 0.5D, z + 0.5D, new ItemStack(
                                     Block.vine, 1)));
                 } else
-                    return false;
+
+                if (CheckHelper.isIC2Loaded()) {
+                    if (blockID == AddonIC2.getItem("rubberLeaves").itemID) {
+
+                        par2World.spawnEntityInWorld(new EntityItem(par2World,
+                                x + 0.5D, y + 0.5D, z + 0.5D, AddonIC2
+                                        .getItem("rubberLeaves")));
+
+                    }
+                }
             }
         }
         return true;
