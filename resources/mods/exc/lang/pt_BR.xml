@@ -5,10 +5,10 @@
 <!-- Author: Sarrabiscos -->
     <!-- Item Related -->
 	    <entry key="item.herbalAccumulator.name">Acumulador de Ervas</entry>
-	    <entry key="item.ingotEterneous.name">Lingote de Eterneous</entry>
+	    <entry key="item.ingotEterneous.name">Barra de Eterneous</entry>
 	    <entry key="item.chunkEterneous.name">Pedaço de Eterneous</entry>
 	<!-- Tile(Blocks) Related -->
-	    <entry key="tile.voidHeliograph.name">Heliógrafo do Vazio</entry>
+	    <entry key="tile.voidHeliograph.name">Heliógrafo do Vórtex</entry>
 	<!-- Creative Tab -->
 	    <entry key="itemGroup.EXC">Extraneous Craft</entry>  
 
