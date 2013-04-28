@@ -25,3 +25,11 @@ This container is forged trough exclusive use of void/space attributes of Obsidi
 This machine does not require energy but needs a fair bit of time to complete it's processes. It only seems to work on certain materials though. Seems like liquidified Obsidian in some capsules would be nice to have for further stuff ;)
 
 **Author:** *Astorian*
+
+***
+
+**4. Gravitational Enpowerer**
+
+This machine requires energy, it generates energy by pressure(water in one side, lava in other without any contatc of air.
+
+**Author:** *Soarxyn*
